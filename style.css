@@ -1,0 +1,194 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3a1f1f;
+    /* rich maroon-brown */
+    color: #f0e7e9;
+    font-family: sans-serif;
+    line-height: 1.6;
+    padding: 2rem;
+}
+
+/* Centering Layout */
+header,
+footer {
+  text-align: center;
+}
+
+
+/* Header */
+header h1 {
+    font-size: 4rem;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+/* Navigation Bar */
+nav {
+    margin-bottom: 1rem;
+}
+
+.nav-tabs {
+    list-style: none;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.nav-tabs li::after {
+    content: "|";
+    color: #f0e7e955;
+    margin-left: 0.5rem;
+}
+
+.nav-tabs li:last-child::after {
+    content: "";
+    margin: 0;
+}
+
+.nav-tabs a {
+    padding: 0.4rem 1rem;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(6px);
+    color: #f0e7e9;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+.nav-tabs a:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+}
+
+.nav-tabs .active {
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Year Toggle */
+#year-toggle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+#year-toggle p {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+
+.year-btn {
+    padding: 0.4rem 1rem;
+    border: none;
+    border-radius: 999px;
+    background-color: #f0e7e933;
+    color: #f0e7e9;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.year-btn:hover {
+    background-color: #f0e7e966;
+}
+
+.year-btn.selected {
+    background-color: #f4cd6a;
+    color: #3a1f1f;
+    font-weight: bold;
+}
+
+/* Bio */
+#bio {
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Blog Feed */
+#blog-feed h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog-preview {
+    list-style: none;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    max-width: 600px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(4px);
+    transition: background-color 0.3s ease;
+}
+
+.blog-preview:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+}
+
+/* Blog Listing (Blog.html) */
+.blog-listing {
+    list-style: none;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    max-width: 600px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(4px);
+    transition: background-color 0.3s ease;
+}
+
+.blog-listing:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+}
+
+/* Blog Post Pages */
+.blog-post {
+    max-width: 700px;
+    padding: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}
+
+a {
+    color: #c18a7c;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #dfb8a8;
+}
