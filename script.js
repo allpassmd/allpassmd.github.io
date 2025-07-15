@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const bioText = document.getElementById("bioText");
 
   const bios = {
-    0: "Aspiring developer documenting Year 0: building, learning, and launching.",
-    1: "Now in Year 1: shipping, interviewing, and building a real footprint in tech.",
+    0: "",
+    1: "",
   };
 
   const updateBio = (year) => {
