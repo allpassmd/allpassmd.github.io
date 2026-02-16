@@ -2,118 +2,187 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Matthew D. Allpass</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matthew Allpass</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <div class="container">
-
     <header>
       <h1>Matthew Allpass</h1>
-      <p>DevOps/MLOps-leaning generalist SWE | B.S. in CS from CSU</p>
+      <p class="subtitle">M.S. Computer Science Student | Arizona State University online</p>
     </header>
 
-    <section id="bio">
+    <section id="bio" class="glass-panel">
       <p>
-        CS graduate with hands-on experience in full-stack development, CI/CD pipelines, and applied machine learning. Seeking entry-level SWE role with scope across infrastructure and ML deployment.  
+        Currently pursuing an <strong>M.S. in Computer Science</strong> at Arizona State University online part-time
+        following obtaining my B.S. in Computer Science from Colorado State University.
+        I am seeking my first professional position while I complete my M.S. online.
       </p>
     </section>
 
-  
     <section id="skills">
-  <h2>Skills</h2>
-
-  <h3>Proficient In</h3>
-  <div class="skills-grid">
-    <div class="skill glass-panel"><img src="assets/logos/python.svg" alt="Python" /><span>Python</span></div>
-    <div class="skill glass-panel"><img src="assets/logos/java.svg" alt="Java" /><span>Java</span></div>
-    <div class="skill glass-panel"><img src="assets/logos/springboot.svg" alt="Spring Boot" /><span>Spring Boot</span></div>
-    <div class="skill glass-panel"><img src="assets/logos/fastapi.svg" alt="FastAPI" /><span>FastAPI</span></div>
-    <div class="skill glass-panel"><img src="assets/logos/postgresql.svg" alt="PostgreSQL" /><span>PostgreSQL</span></div>
-    <div class="skill glass-panel"><img src="assets/logos/git.svg" alt="GitHub" /><span>Git & GitHub</span></div>
-    <div class="skill glass-panel"><img src="assets/logos/pytorch.svg" alt="PyTorch" /><span>PyTorch</span></div>
-    <div class="skill glass-panel"><img src="assets/logos/pandas.svg" alt="Pandas" /><span>Pandas</span></div>
-    <div class="skill glass-panel"><img src="assets/logos/numpy.svg" alt="NumPy" /><span>NumPy</span></div>
-    <div class="skill glass-panel"><img src="assets/logos/scikitlearn.svg" alt="scikit-learn" /><span>scikit-learn</span></div>
-  </div>
-
-  <h3>Familiar with</h3>
-  <div class="skills-grid">
-    <div class="skill glass-panel"><img src="assets/logos/javascript.svg" alt="JavaScript" /><span>JavaScript</span></div>
-    <div class="skill glass-panel"><img src="assets/logos/html5.svg" alt="HTML" /><span>HTML</span></div>
-    <div class="skill glass-panel"><img src="assets/logos/css.svg" alt="CSS" /><span>CSS</span></div>
-    <div class="skill glass-panel"><img src="assets/logos/react.svg" alt="React" /><span>React</span></div>
-    <div class="skill glass-panel"><img src="assets/logos/docker.svg" alt="Docker" /><span>Docker</span></div>
-    <div class="skill glass-panel"><img src="assets/logos/githubactions.svg" alt="GitHub Actions" /><span>GitHub Actions</span></div>
-    <div class="skill glass-panel"><img src="assets/logos/supabase.svg" alt="Supabase" /><span>Supabase</span></div>
-    <div class="skill glass-panel"><img src="assets/logos/unity.svg" alt="Unity" /><span>Unity</span></div>
-    <div class="skill glass-panel"><img src="assets/logos/c.svg" alt="C" /><span>C</span></div>
-    <div class="skill glass-panel"><img src="assets/logos/cplusplus.svg" alt="C++" /><span>C++</span></div>
-    <div class="skill glass-panel"><img src="assets/logos/mlagents.svg" alt="ML-Agents" /><span>ML-Agents</span></div>
-  </div>
-</section>
-
-    <section id="projects">
-      <h2>Personal Project</h2>
-      <div class="project-container">
-        <div class="project glass-panel">
-          <h3><a href="https://github.com/mallpass/ccfraud-project" target="_blank">Credit Card Fraud Detection
-              System</a></h3>
-          <p>A full-stack pipeline for fraud detection using a specific Kaggle dataset of 284k transactions. Built to
-            simulate a production fraud system with versioning, CI/CD, and retraining workflows.</p>
-          <p><strong>Tech Stack:</strong> React, FastAPI, Supabase, PostgreSQL, Docker, GitHub Actions, MLflow</p>
+      <h2>Technical Skills</h2>
+      <div class="skills-stack">
+        <div class="skill-category">
+          <h3>Programming Languages</h3>
+          <p>Java, Python, JavaScript, C++, C#, SQL, Bash</p>
+        </div>
+        <div class="skill-category">
+          <h3>Back-End & Frameworks</h3>
+          <p>Spring Boot, FastAPI, Node.js, Unity</p>
+        </div>
+        <div class="skill-category">
+          <h3>Front-End</h3>
+          <p>React, HTML, CSS</p>
+        </div>
+        <div class="skill-category">
+          <h3>Machine Learning</h3>
+          <p>CNNs, LLMs, RAG Pipelines, PyTorch, scikit-learn, TensorFlow, MLflow</p>
+        </div>
+        <div class="skill-category">
+          <h3>Cloud & DevOps</h3>
+          <p>AWS (ECS, S3, CloudFront), Docker, GitHub Actions, CI/CD</p>
+        </div>
+        <div class="skill-category">
+          <h3>Testing & QA</h3>
+          <p>JUnit, Mockito, Selenium, PyTest, Postman, Playwright </p>
+        </div>
+        <div class="skill-category">
+          <h3>Tools & Databases</h3>
+          <p>Git, GitHub, Supabase, PostgreSQL, Linux/Unix, Windows, MacOS, AI-Assisted Development</p>
         </div>
       </div>
     </section>
 
-    <section id="school-projects">
-      <h2>School Projects</h2>
+    <section id="projects">
+      <h2>Featured Projects</h2>
 
-      <div class="project glass-panel">
-        <h3><a href="https://github.com/csu-hci-projects/CS465_AllpassM" target="_blank">VR Multimodal UI Panel
-            (Unity)</a></h3>
-        <p>Solo capstone project comparing user control vs ML control of a UI panel in a VR escape room using Unity and
-          ML-Agents.</p>
-        <p>Tech: Unity, C#, ML-Agents, User Studies, VR Interaction</p>
+      <div class="project-card glass-panel">
+        <div class="project-header">
+          <h3>Credit Card Fraud Detection System</h3>
+          <div class="tag-group">
+            <span class="tech-tag">Personal Project</span>
+            <span class="tech-tag">MLOps</span>
+            <span class="tech-tag">Deep Learning</span>
+            <span class="tech-tag">Full-Stack</span>
+          </div>
+        </div>
+        <p>Engineered an end-to-end pipeline for detecting fraud in an imbalanced 284k transaction dataset. Achieved
+          <strong>92% AUPRC</strong> using a custom PyTorch Deep Neural Network. Features automated model versioning
+          with <strong>MLflow</strong>, containerized and automated deployment via <strong>Docker</strong> and
+          <strong>GitHub Actions</strong> to a Render server, a <strong>React</strong> front-end for data ingestion and
+          results visualization, with a <strong>FastAPI</strong> back-end for processing.</p>
+        <div class="project-links">
+          <a href="https://github.com/mallpass/ccfraud-project" target="_blank">View Repository</a>
+        </div>
       </div>
 
-      <div class="project glass-panel">
-        <h3>Agile Software Projects (CS315 & CS415)</h3>
-        <p>Two semester-long team projects in Java and JavaScript using Scrum. Focused on product development, testing (JUnit,
-          Mockito), Agile practices, with rotating scrum leaders and demo experience.</p>
-        <p>Tech: Java, JavaScript, JUnit, Mockito, Agile, GitHub</p>
+      <div class="project-card glass-panel">
+        <div class="project-header">
+          <h3>NFL Weekly Picks Application</h3>
+          <div class="tag-group">
+            <span class="tech-tag">Personal Project</span>
+            <span class="tech-tag">AWS Infrastructure</span>
+            <span class="tech-tag">Cloud-Native</span>
+            <span class="tech-tag">DevOps</span>
+          </div>
+        </div>
+        <p>Architected a live full-stack application hosted on <strong>AWS</strong>. Utilized
+          <strong>S3/CloudFront</strong> for the frontend and <strong>ECS (Fargate)</strong> for the containerized
+          FastAPI backend. Implemented automated scoring updates via <strong>Python cron jobs</strong> and monitored
+          logs for a <strong>dozen active users</strong>.</p>
+        <div class="project-links">
+          <a href="https://github.com/mallpass/fantasyishfootball" target="_blank">View Repository</a>
+        </div>
       </div>
 
-      <div class="project glass-panel">
-        <h3><a href="https://github.com/mallpass/457-game" target="_blank">Networking Quiz Show Game</a></h3>
-        <p>Multiplayer TCP-based quiz game with client/server architecture and optional PyQt5 GUI. Demonstrated
-          real-time message sync and dynamic join mid-game.</p>
-        <p>Tech: Python, Sockets, PyQt5</p>
+      <div class="project-card glass-panel">
+        <div class="project-header">
+          <h3>VR Multimodal UI Research Study</h3>
+          <div class="tag-group">
+            <span class="tech-tag">Academic Project</span>
+            <span class="tech-tag">Unity/C#</span>
+            <span class="tech-tag">HCI Research</span>
+            <span class="tech-tag">ML-Agents</span>
+          </div>
+        </div>
+        <p>Developed a VR puzzle room for Meta Quest 3 to evaluate UI placement techniques. Authored a research paper
+          for a capstone project analyzing a 10-participant study where manual multimodal control (gesture and voice)
+          outperformed RL-based adaptive control by <strong>30%</strong> in task completion speed.</p>
+        <div class="project-links">
+          <a href="https://github.com/csu-hci-projects/CS465_AllpassM" target="_blank">View Repository</a>
+        </div>
+
       </div>
 
-      <div class="project glass-panel">
-        <h3><a href="https://github.com/mallpass/Castcadle" target="_blank">Castcadle (Wordle Clone)</a></h3>
-        <p>Built in 2 days as a personal full-stack hackathon project inspired by the Wordle. Features: User tracking, browser storage, and hosted/deployed on personal server.</p>
-        <p>Tech: Java, Spring Boot, React, HTML, CSS, Deployed Hosting</p>
+      <div class="project-card glass-panel">
+        <div class="project-header">
+          <h3>Company Management System</h3>
+          <div class="tag-group">
+            <span class="tech-tag">Academic Project</span>
+            <span class="tech-tag">Full-Stack</span>
+            <span class="tech-tag">Agile/Scrum</span>
+            <span class="tech-tag">QA Rigor</span>
+          </div>
+        </div>
+        <p>Collaborated in a 5-person team over 5 months to build a Spring Boot/React company management system
+          following Agile/Scrum methodologies. Achieved <strong>95% code coverage</strong> by integrating TDD, Mockito,
+          and mutation testing.</p>
+      </div>
+
+      <div class="project-card glass-panel">
+        <div class="project-header">
+          <h3>Networked Quiz Game</h3>
+          <div class="tag-group">
+            <span class="tech-tag">Academic Project</span>
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Sockets</span>
+            <span class="tech-tag">Low-Level Networking</span>
+          </div>
+        </div>
+        <p>Built a multiplayer quiz game in <strong>Python</strong> leveraging low-level <strong>TCP sockets</strong>
+          for real-time networking. Designed both the <strong>server</strong> and <strong>client</strong> logic to
+          handle connections, broadcast questions, collect answers, and maintain score state across players. Included
+          optional GUI support and focused on network protocol handling and game flow synchronization.</p>
+        <div class="project-links">
+          <a href="https://github.com/mallpass/457-game" target="_blank">View Repository</a>
+        </div>
+      </div>
+
+
+      <div class="project-card glass-panel">
+        <div class="project-header">
+          <h3>Castcadle</h3>
+          <div class="tag-group">
+            <span class="tech-tag">Personal Project</span>
+            <span class="tech-tag">Rapid Prototyping</span>
+            <span class="tech-tag">AI-Assisted Project</span>
+            <span class="tech-tag">Self-Hosting</span>
+          </div>
+        </div>
+        <p>A full-stack Wordle clone developed within 48 hours to showcase high-velocity development via
+          <strong>AI-assisted coding workflows</strong>. Managed the full lifecycle from browser storage logic to
+          <strong>on-premise self-hosting</strong>.</p>
+        <div class="project-links">
+          <a href="https://github.com/mallpass/Castcadle" target="_blank">View Repository</a>
+        </div>
       </div>
     </section>
 
-    <footer>
+    <footer class="centered-footer">
       <p>
         <a href="https://github.com/mallpass" target="_blank">GitHub</a> |
         <a href="https://www.linkedin.com/in/matthew-allpass/" target="_blank">LinkedIn</a> |
-        <a href="mailto:matthewallpassd@gmail.com">Email</a> |
-        <a href="assets/Resume-10.pdf" target="_blank">Resume</a>
+        <a href="mailto:allpassmd@gmail.com">Email</a>
       </p>
     </footer>
   </div>
 
-  <img src="./assets/img/jb1.png" alt="Corner Image" class="corner-image" />
-
+  <img src="assets/img/jb1.png" alt="Personal Silhouette" class="corner-silhouette" />
 </body>
 
 </html>
-
